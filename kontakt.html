@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Kontakt – Konsido 3PL</title>
+  <meta name="description" content="Kontakta Konsido 3PL. Beskriv din butik, produkter och volym så föreslår vi ett testupplägg.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap inner">
+    <div class="brand">
+      <img src="assets/konsido-3pl-logo.png" alt="Konsido 3PL">
+    </div>
+    <nav class="nav" aria-label="Meny">
+      <a href="index.html" class="">Start</a>
+      <a href="tjanster.html" class="">Tjänster</a>
+      <a href="flode.html" class="">Så funkar det</a>
+      <a href="ramar.html" class="">Ramar</a>
+      <!--  <a href="priser.html" class="">Priser</a> Visa ej offentligt --!>
+      <!--  <a href="om-oss.html" class="">Om oss</a> Visa ej för tillfället --!>
+      <a href="kontakt.html" class="btn primary">Starta test</a>
+    </nav>
+  </div>
+</div>
+
+
+<header class="hero">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <h1 style="font-size:var(--h1);margin:0">Starta test</h1>
+        <p class="sub">Beskriv din butik och vad du vill börja med – så återkommer vi med ett konkret upplägg.</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="soft">
+  <div class="wrap">
+    <div class="grid">
+      <div class="card span-7"><div class="feature">
+        <div class="kicker">Formulär</div>
+        <h2>Skicka underlag</h2>
+        <form class="form" onsubmit="event.preventDefault(); alert('Tack! Koppla formuläret till e-post/CRM vid publicering.');">
+          <div>
+            <label for="company">Företag / varumärke</label>
+            <input id="company" name="company" placeholder="Ex: ExempelStore AB" required>
+          </div>
+          <div>
+            <label for="site">Webbplats</label>
+            <input id="site" name="site" placeholder="exempel.se">
+          </div>
+          <div>
+            <label for="model">Affärsmodell</label>
+            <select id="model" name="model">
+              <option>Dropshipping idag</option>
+              <option>Har svenskt lager redan</option>
+              <option>Hybrid (delvis Sverige)</option>
+              <option>Annat</option>
+            </select>
+          </div>
+          <div>
+            <label for="scope">Start-scope (SKU:er/varianter)</label>
+            <input id="scope" name="scope" placeholder="Ex: 3 bästsäljare, storlekar S–XL">
+          </div>
+          <div>
+            <label for="vol">Ungefärlig volym</label>
+            <input id="vol" name="vol" placeholder="Ex: 50–200 ordrar/dag eller 1000/vecka">
+          </div>
+          <div>
+            <label for="msg">Meddelande</label>
+            <textarea id="msg" name="msg" placeholder="Nuvarande leveranstid, mål, särskilda önskemål..."></textarea>
+          </div>
+          <button class="btn primary" type="submit">Skicka</button>
+          <div class="small">* Statisk mall. Koppla formuläret vid publicering.</div>
+        </form>
+      </div></div>
+
+      <div class="card span-5"><div class="feature">
+        <div class="kicker orange">Checklista</div>
+        <h2>För snabb återkoppling</h2>
+        <ul class="list">
+          <li>Vilka produkter vill du börja med?</li>
+          <li>Hur många varianter per produkt?</li>
+          <li>Vilken leveranstid har du idag?</li>
+          <li>Har du kampanjer/säsongstoppar?</li>
+          <li>Hur ofta kan du fylla på lagret?</li>
+        </ul>
+        <div class="image-slot" style="margin-top:14px">Kontakta oss via formuläret eller på info@konsido.se</div>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div style="font-weight:1000;color:var(--text)">Konsido 3PL</div>
+        <div class="muted">Svenskt lager • Fulfillment • Hybridflöde</div>
+      </div>
+      <div class="tags">
+        <span class="tag-pill">Shopify</span>
+        <span class="tag-pill">Shipmondo</span>
+        <span class="tag-pill">PostNord</span>
+        <span class="tag-pill">Returer</span>
+      </div>
+    </div>
+    <div style="margin-top:14px;">© <span data-year></span> Konsido 3PL</div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+
+</body>
+</html>
